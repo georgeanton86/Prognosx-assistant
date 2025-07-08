@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +7,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app">
-    <h1>Hello, Progno</h1>
-    <textarea id="user-input" placeholder="Type here..."></textarea>
-    <button onclick="sendToBackend()">Ask</button>
-    <div id="response"></div>
-  </div>
+  <h1>Hello, Progno</h1>
+  <textarea id="userInput" rows="4" cols="50" placeholder="Enter patient info..."></textarea><br/>
+  <button onclick="askProgno()">Ask</button>
+  <pre id="response"></pre>
   <script src="script.js"></script>
 </body>
 </html>
